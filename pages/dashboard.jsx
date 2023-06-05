@@ -103,7 +103,7 @@ export default function Dashboard({ constructor }) {
                             <div className="stat">
                                 <div className="stat-figure text-primary">
 
-                                    <a href="https://github.com/madvier83/next-kasir" target="_blank" rel='noreferrer'>
+                                    <a href="https://github.com/Al-User12" target="_blank" rel='noreferrer'>
                                         <svg
                                             xmlns="http://www.w3.org/2000/svg"
                                             fill="none"
@@ -158,14 +158,14 @@ export default function Dashboard({ constructor }) {
                                     </div>
                                 </div>
                                 <div className="stat-value">100%</div>
-                                <div className="stat-title">Free & Open Source</div>
+                                <div className="stat-title"> Open Source</div>
                                 <a
                                     target="_blank"
-                                    href="https://github.com/madvier83/next-kasir"
+                                    href="https://github.com/Al-User12"
                                     rel="noreferrer"
                                     className="stat-desc text-secondary"
                                 >
-                                    View On GitHub
+                                    View my GitHub
                                 </a>
                             </div>
                         </div>
@@ -177,7 +177,7 @@ export default function Dashboard({ constructor }) {
                                         <div className="card-body">
                                             <h2 className="card-title">Welcome!</h2>
                                             <p>
-                                                Welcome to CookiePOS, a free and open
+                                                Welcome to CookiePOS, open
                                                 source point of sales app!
                                             </p>
                                             <div className="card-actions justify-end">
