@@ -79,12 +79,20 @@ export default function Dashboard({ constructor }) {
         constructor()
     }, [])
 
+
     return (
         <>
             <Head>
                 <title>CookiePOS | Dashboard</title>
             </Head>
             <GlobalDataProvider>
+                <div className="flex flex-col">
+                    
+                    <div className={`flex ${setup.history?"flex-col-reverse":"flex-col"}`}>
+
+                        <div className="m-4 mb-8 flex flex-col md:flex-row max-w-4xl select-none">
+
+
                             <div className="stat">
                                 <div className="stat-figure text-secondary">
                                     <div className="avatar online">
@@ -95,15 +103,15 @@ export default function Dashboard({ constructor }) {
                                         </a>
                                     </div>
                                 </div>
-                                <div className="stat-value">Enjoy this app</div>
-                                <div className="stat-title"> POS Application with new stack </div>
+                                <div className="stat-value">Enjoy this product</div>
+                                <div className="stat-title">POS Aplication with new stack</div>
                                 <a
                                     target="_blank"
                                     href="https://github.com/Al-User12"
                                     rel="noreferrer"
                                     className="stat-desc text-secondary"
                                 >
-                                    View my GitHub
+                                    View On GitHub
                                 </a>
                             </div>
                         </div>
@@ -115,8 +123,8 @@ export default function Dashboard({ constructor }) {
                                         <div className="card-body">
                                             <h2 className="card-title">Welcome!</h2>
                                             <p>
-                                                Welcome to CookiePOS, Production of
-                                                point of sales app!
+                                                Welcome to CookiePOS, a free and open
+                                                source point of sales app!
                                             </p>
                                             <div className="card-actions justify-end">
                                                 <button
