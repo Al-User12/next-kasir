@@ -13,7 +13,7 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <title>CookiePOS</title>
-        <meta name="description" content="open source cashier app" />
+        <meta name="description" content="cashier app" />
       </Head>
 
       <main className={styles.main}>
