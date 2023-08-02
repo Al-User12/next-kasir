@@ -38,6 +38,7 @@ export default function Drawer({children, changeTheme,  theme}) {
                             <button className="w-5 h-5 rounded-full border-0 bg-[#F28C18] border-[#212121] m-1" onClick={()=>changeTheme("halloween")} title="Halloween"></button>
                             <button className="w-5 h-5 rounded-full border-0 bg-[#DC944C] border-[#211720] m-1" onClick={()=>changeTheme("coffee")} title="Coffee"></button>
                             <button className="w-5 h-5 rounded-full border-0 bg-[#343232] border-[#000000] m-1" onClick={()=>changeTheme("black")} title="Black"></button>
+                            <button className="w-5 h-5 rounded-full border-0 bg-[#F9FAFB] border-[#9ddd09] m-1" onClick={()=>changeTheme("light")} title="Light"></button>
                             </div>
                         </ul>
                     </ul>

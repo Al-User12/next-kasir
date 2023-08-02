@@ -15,7 +15,7 @@ export default function GlobalDataProvider({children}) {
 
     function constructor() {
         if(window.localStorage.getItem("theme")===null){
-            window.localStorage.setItem("theme", "night")
+            window.localStorage.setItem("theme", "light")
         }
 
         let categories = JSON.parse(window.localStorage.getItem("categories"))
